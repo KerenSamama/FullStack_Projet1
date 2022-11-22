@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign_up</title>
+    
+  
+   
+</head>
+<body>
+  <div id="network">
+    <a href="https://www.instagram.com/niagarafallsusa/"><img class="img_network_icon"  src="./images/instagram.png"></a>
+    <a href="https://www.facebook.com/NiagaraFallsUSA"><img class="img_network_icon" src="./images/facebook.png"></a>
+    <a href="https://www.youtube.com/c/NiagaraFallsUSA/videos"><img class="img_network_icon"  src="./images/youtube.png"></a>
+   </div>
+
+
+<img id="niagara_fall_icone" src="./images/niagara-fall-icone.png">
+
+  <div class="navbar">
+    <a href="#">Home</a>
+     <a href="./activity.html">Activity Infos</a>
+     <a href="./sign_up.html">Inscription and payment</a>
+     <a href="#"  >Prices and schedule</a>
+    <a href="#">Contact Us</a>
+   
+  </div>
+    <!--rajouter action si on veut envoyer les infos a une page-->
+   <div>
+   <h1 id="reservation">Reservation</h1>
+        <div>
+            <p class="label_choice">Click to choose activity:<p>
+            <div class="flex-container">
+              <div>
+                <label class="img_check_label" for="image-check"><h3>Night Illumination</h3>
+                  <input class="img_checkbox" type="checkbox" id="image-check">
+                  <img class="activity_img" title="Niagara Fall Night Illumination" src="./images/niagara fall night illumination tour.jpg" width="200" height="100">
+                </label>
+              </div>  
+              
+              <div>
+              <label class="img_check_label" for="image-check1"><h3>Helicopter Flight</h3>
+                <input class="img_checkbox" type="checkbox" id="image-check1">
+                <img class="activity_img" title="Niagara Fall Helicopter Flight" src="./images/Niagara-Falls-Helicopter-Flight.jpg" width="200" height="100">
+              </label>
+              </div> 
+              <div>
+                <label class="img_check_label" for="image-check2"><h3>See Sight Tour</h3>
+                  <input class="img_checkbox" type="checkbox" id="image-check2">
+                  <img class="activity_img" title="See Sight Tour" src="./images/see-sight-tour.jpg" width="200" height="100">
+                </label>
+               </div> 
+              <div>
+                <label class="img_check_label" for="image-check3"><h3>Maid of the Mist</h3>
+                  <input class="img_checkbox" type="checkbox" id="image-check3">
+                  <img class="activity_img" title="Maid of the Mist" src="./images/maid-of-the-mist.jpg" width="200" height="100">
+                </label>
+              </div>
+              
+            </div>
+            
+          
+          <div id="second_part_of_the_form">
+            <div class="obj" >
+                <label class="label_choice" for="calendar">Choose a date:</label>
+                <input class="input_text"  type="date" id="calendar" name="calendar">
+            </div>
+            <div class="obj">
+              <label class="label_choice"  for="person_number">How many persons ?</label>
+              <select id="list_select" id="person_number">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+             </select>
+           </div> 
+          </div>
+          <form >
+                
+              <label for="fname">First name:</label><br>
+              <input class="input_text" type="text" id="fname" name="fname" required ><br><br>
+              <label for="lname" >Last name:</label><br>
+              <input class="input_text"  type="text" id="lname" name="lname" ><br><br>
+              <label for="email" >Email:</label><br>
+              <input class="input_text"  type="text" id="email" name="email" ><br><br>
+              <label for="mobile_number" >Mobile Number:</label><br>
+              <input class="input_text"  type="text" id="mobile_number" name="mobile_number" pattern="[0-9]{10}" required><br><br>
+              
+              <input type="checkbox">Sign up and receive insider tips on area events and special promos<br>
+              <input id="submit_button"  type="submit" value="Submit">
+                 
+          </form>
+         
+          
+  
+   </div> 
+</body>
+</html>
