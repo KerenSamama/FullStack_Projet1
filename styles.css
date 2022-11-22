@@ -207,6 +207,7 @@ aside {
   font-style: italic;
   border-style: solid;
   padding-bottom: 1em;
+  background-color: gray;
 }
 
 #fall_night_title, #outdoor_activity{
@@ -305,4 +306,83 @@ aside {
     text-align: center;
     margin-left: 15px;
    }
+
+
+
 }
+
+
+  /*style of price_and_schedule*/
+  #S_B {
+
+  
+    background-image:url(./images/background_schedule.jpeg);
+   
+    }
+  
+  #outdoor{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase; 
+    font-family: 'Baskerville';
+    
+  }
+  
+  table{
+    
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+    border: 4px solid rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 70px auto;
+   
+  }
+  thead th {
+    background: #4682B4;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 150;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+  
+  .Activity th{
+    background: #4682B4;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 20px;
+  
+  }
+  .Activity tr{
+    color:rgb(21, 29, 76);
+    font-weight: bold;
+   
+  }
+  .Price th {
+    background: #4682B4;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 20px;
+  
+  
+  
+  }
+  
+  .Price tr{
+    color:rgb(21, 29, 76);
+    font-weight: bold;
+    
+  }
