@@ -8,10 +8,12 @@
     <title>home</title>
 </head>
 <body>
-   <header>
+   <div>
+    
     <img id="niagara_fall_icone" src="./images/niagara-fall-icone.png">
-   </header>
-   <p id="welcome">Welcome To Niagara Fall</p>
+    <p class="desc_activity" id="welcome">Welcome To Niagara Fall</p>
+   </div>
+   
 
  
       <div class="navbar">
@@ -24,10 +26,10 @@
       
 
       <img id="home_img" src="./images/home_image.jpeg">
-      <div class="activity_block">
-        <div class="activity_block">  
+      <div class="activity_block" >
+        <div class="activity_block" id="link_text_small_screen">  
         <a target="_blank" href="https://www.youtube.com/watch?app=desktop&v=IyBq4AdBKJI"> <img id="img_link" src="./images/link icone.png" ></a>
-        <p class="desc_activity">link to youtube trailer</p>
+        <p class="desc_activity" >link to youtube trailer</p>
       </div>
       <div>
         <p id="history_title">History</p>
@@ -40,8 +42,8 @@
       <div>
         
         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186586.2299512811!2d-79.22811838812085!3d43.05384707381369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3445eec824db9%3A0x46d2c56156bda288!2sNiagara%20Falls%2C%20ON%2C%20Canada!5e0!3m2!1sfr!2sil!4v1668889249789!5m2!1sfr!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
+    </div><br><br>
+<!--
     <div>
         <span id="id1" class="target"></span>
         <span id="id2" class="target"></span>
@@ -90,6 +92,28 @@
         <li><a href="#id5"><img src="./images/14.jpg" alt></a></li>
         </ul>
         </div>
+    </div>
+    -->
+    <h1 id="title_gallery">Some images of this wonderful place...</h1>
+    <div class="gallery">
+        <div class="gallery__item gallery__item--1">
+            <img src="./images/10.jpg" class="gallery__img">
+        </div>
+          <div class="gallery__item gallery__item--2">
+            <img src="./images/11.webp" class="gallery__img">
+          </div>
+          <div class="gallery__item gallery__item--3">
+            <img src="./images/12.jpg" class="gallery__img">
+          </div>
+          <div class="gallery__item gallery__item--4">
+            <img src="./images/13.jpeg" class="gallery__img">
+          </div>
+          <div class="gallery__item gallery__item--5">
+            <img src="./images/14.jpg" class="gallery__img">
+          </div>
+          <div class="gallery__item gallery__item--6">
+            <img src="./images/09.webp" class="gallery__img">
+          </div>
     </div>
     
 </body>
